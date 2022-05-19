@@ -8,8 +8,8 @@ import (
 )
 
 var (
-	encryptKey = []byte("axiappsupersecretkeyaxiappsecret")
-	nonce      = []byte("axiappSecret")
+	encryptKey = []byte("key")
+	nonce      = []byte("nonceSecret")
 	aesgcm     cipher.AEAD
 )
 
